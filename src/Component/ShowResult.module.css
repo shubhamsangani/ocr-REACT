@@ -1,0 +1,24 @@
+.ShowResult {
+    margin-top: 20px;
+    padding: 10px;
+    /* background-color: white; */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+    position: relative;
+    left: 360px;
+}
+
+.ShowResult h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.ShowResult pre {
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 25px;
+    color: white;
+}

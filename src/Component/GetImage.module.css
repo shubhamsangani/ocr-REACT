@@ -1,0 +1,48 @@
+.DS {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    padding: 6px 40px;
+    -o-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: black;
+    align-self: flex-end;
+}
+
+button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+.IS {
+    display: flex;
+    flex-direction: row;
+    background-color: hsla(204, 91%, 36%, 0.704);
+    justify-content: center;
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+    -o-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 50px;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
